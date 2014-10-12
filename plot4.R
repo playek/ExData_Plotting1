@@ -38,7 +38,7 @@ loadDataSet<- function (zipDataFile, plotDataFile)
   
 }
 
-#function to plot  Global_active_power ~ DateNTime
+#function to plot multivaribles
 plotIt <- function ( plotableData, imageFile="plot4.png")
 {
   print ( "ploting  ....")
@@ -83,7 +83,7 @@ plotIt <- function ( plotableData, imageFile="plot4.png")
   print ( "ploting Done.")
 }
 
-# main code that invoke the functions to load the data and plot it 
+# main code that invokes the functions to load the data and plot it 
 
 #setwd("E:\\documents\\Coursera\\Data Science\\Exploratory_data_analysis\\assignments\\CourseProject1")
 
